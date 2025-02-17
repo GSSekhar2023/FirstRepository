@@ -1,9 +1,13 @@
 class Test
 {
-	static void Main()
-	{
- 	 Console.WriteLine("Hello world");
-	 Console.ReadLine();
-	}
+ Test()
+ {
+  Console.WriteLine("Constructor called");
+ }
+ static void Main()
+ {
+  Console.WriteLine("Hello world");
+  Console.ReadLine();
+ }
 }
 
