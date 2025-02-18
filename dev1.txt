@@ -12,6 +12,6 @@ class Test
 }
 class Hello:Test
 {
-
+ Console.WriteLine("child class called");
 }
 
